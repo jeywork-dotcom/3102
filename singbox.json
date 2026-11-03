@@ -1,0 +1,1088 @@
+{
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-1-99ms",
+      "server": "104.18.0.9",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-2-121ms",
+      "server": "104.17.0.9",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-3-45ms",
+      "server": "104.17.0.4",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-4-47ms",
+      "server": "104.16.0.2",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-5-51ms",
+      "server": "104.17.0.8",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-1-43ms",
+      "server": "104.21.0.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-2-45ms",
+      "server": "172.64.230.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-3-48ms",
+      "server": "104.24.0.8",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-4-50ms",
+      "server": "104.19.0.1",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-5-50ms",
+      "server": "104.25.0.9",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-SG-1-45ms",
+      "server": "104.18.0.7",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-SG-2-47ms",
+      "server": "104.25.0.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-SG-3-54ms",
+      "server": "172.66.0.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-SG-4-54ms",
+      "server": "104.17.0.9",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-SG-5-40ms",
+      "server": "104.25.0.4",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-HK-1-73ms",
+      "server": "172.67.76.194",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-HK-2-119ms",
+      "server": "104.21.0.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-HK-3-42ms",
+      "server": "172.67.65.54",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-HK-4-45ms",
+      "server": "104.26.6.124",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-HK-5-46ms",
+      "server": "104.27.0.8",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TW-1-39ms",
+      "server": "104.25.94.80",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TW-2-42ms",
+      "server": "104.16.61.163",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TW-3-43ms",
+      "server": "104.16.11.186",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TW-4-46ms",
+      "server": "104.26.4.64",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TW-5-48ms",
+      "server": "104.20.23.177",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-DE-1-41ms",
+      "server": "188.114.96.8",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-DE-2-96ms",
+      "server": "104.21.0.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-DE-3-40ms",
+      "server": "104.27.0.2",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-DE-4-40ms",
+      "server": "104.24.0.1",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-DE-5-40ms",
+      "server": "104.21.0.1",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-GB-1-43ms",
+      "server": "172.64.230.7",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-GB-2-44ms",
+      "server": "104.25.0.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-GB-3-46ms",
+      "server": "104.24.0.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-GB-4-46ms",
+      "server": "104.20.0.5",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-GB-5-47ms",
+      "server": "104.21.0.8",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TEL-1-41ms",
+      "server": "104.18.61.171",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TEL-2-43ms",
+      "server": "104.19.231.147",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TEL-3-44ms",
+      "server": "172.64.232.8",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TEL-4-46ms",
+      "server": "162.159.153.146",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-TEL-5-50ms",
+      "server": "104.18.61.171",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-KR-1-45ms",
+      "server": "104.17.0.1",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-KR-2-47ms",
+      "server": "104.16.0.4",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-KR-3-51ms",
+      "server": "104.18.0.4",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-KR-4-185ms",
+      "server": "104.19.0.3",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    },
+    {
+      "type": "vless",
+      "tag": "CF-KR-5-40ms",
+      "server": "104.17.0.9",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "network": "tcp"
+    }
+  ]
+}
