@@ -943,7 +943,7 @@
     {
       "type": "vless",
       "tag": "CF-TEL-5-50ms",
-      "server": "104.18.61.171",
+      "server": "172.66.0.118",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "transport": {
