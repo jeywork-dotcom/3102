@@ -1,7 +1,7 @@
 proxies:
   - name: "CF-US-1"
     type: vless
-    server: 104.18.0.6
+    server: 104.20.0.6
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -17,7 +17,7 @@ proxies:
 
   - name: "CF-US-2"
     type: vless
-    server: 172.64.230.2
+    server: 104.21.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -33,7 +33,7 @@ proxies:
 
   - name: "CF-US-3"
     type: vless
-    server: 104.18.0.7
+    server: 172.64.232.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -49,7 +49,7 @@ proxies:
 
   - name: "CF-US-4"
     type: vless
-    server: 104.19.0.9
+    server: 172.64.229.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -65,7 +65,7 @@ proxies:
 
   - name: "CF-US-5"
     type: vless
-    server: 172.64.232.8
+    server: 104.24.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -97,7 +97,7 @@ proxies:
 
   - name: "CF-US-7"
     type: vless
-    server: 104.18.0.3
+    server: 172.64.230.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -113,7 +113,7 @@ proxies:
 
   - name: "CF-US-8"
     type: vless
-    server: 104.16.0.8
+    server: 104.21.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -129,7 +129,7 @@ proxies:
 
   - name: "CF-US-9"
     type: vless
-    server: 162.159.197.1
+    server: 104.16.0.6
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -145,7 +145,7 @@ proxies:
 
   - name: "CF-US-10"
     type: vless
-    server: 104.19.0.4
+    server: 104.19.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -161,7 +161,7 @@ proxies:
 
   - name: "CF-JP-1"
     type: vless
-    server: 104.24.0.8
+    server: 104.25.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -177,7 +177,7 @@ proxies:
 
   - name: "CF-JP-2"
     type: vless
-    server: 172.64.231.160
+    server: 104.26.0.9
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -193,7 +193,7 @@ proxies:
 
   - name: "CF-JP-3"
     type: vless
-    server: 104.20.0.7
+    server: 104.25.0.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -209,7 +209,7 @@ proxies:
 
   - name: "CF-JP-4"
     type: vless
-    server: 108.162.198.14
+    server: 172.64.230.154
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -225,7 +225,7 @@ proxies:
 
   - name: "CF-JP-5"
     type: vless
-    server: 162.159.0.3
+    server: 104.16.0.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -241,7 +241,7 @@ proxies:
 
   - name: "CF-JP-6"
     type: vless
-    server: 108.162.198.6
+    server: 172.64.232.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -257,7 +257,7 @@ proxies:
 
   - name: "CF-JP-7"
     type: vless
-    server: 108.162.198.5
+    server: 172.66.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -273,7 +273,7 @@ proxies:
 
   - name: "CF-JP-8"
     type: vless
-    server: 108.162.198.1
+    server: 104.18.0.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -289,7 +289,7 @@ proxies:
 
   - name: "CF-JP-9"
     type: vless
-    server: 104.27.0.6
+    server: 104.20.0.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -305,7 +305,7 @@ proxies:
 
   - name: "CF-JP-10"
     type: vless
-    server: 108.162.198.12
+    server: 104.16.0.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -321,7 +321,7 @@ proxies:
 
   - name: "CF-SG-1"
     type: vless
-    server: 104.19.0.1
+    server: 104.21.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -337,7 +337,7 @@ proxies:
 
   - name: "CF-SG-2"
     type: vless
-    server: 104.24.0.8
+    server: 104.17.0.9
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -353,7 +353,7 @@ proxies:
 
   - name: "CF-SG-3"
     type: vless
-    server: 172.66.0.5
+    server: 104.20.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -369,7 +369,7 @@ proxies:
 
   - name: "CF-SG-4"
     type: vless
-    server: 104.26.0.9
+    server: 104.24.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -385,7 +385,7 @@ proxies:
 
   - name: "CF-SG-5"
     type: vless
-    server: 104.25.0.4
+    server: 104.17.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -401,7 +401,7 @@ proxies:
 
   - name: "CF-SG-6"
     type: vless
-    server: 104.27.0.6
+    server: 104.24.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -417,7 +417,7 @@ proxies:
 
   - name: "CF-SG-7"
     type: vless
-    server: 172.64.232.4
+    server: 188.114.96.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -433,7 +433,7 @@ proxies:
 
   - name: "CF-SG-8"
     type: vless
-    server: 104.24.0.1
+    server: 104.18.0.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -449,7 +449,7 @@ proxies:
 
   - name: "CF-SG-9"
     type: vless
-    server: 104.16.0.7
+    server: 104.20.0.6
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -465,7 +465,7 @@ proxies:
 
   - name: "CF-SG-10"
     type: vless
-    server: 162.159.0.4
+    server: 172.64.230.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -481,7 +481,7 @@ proxies:
 
   - name: "CF-HK-1"
     type: vless
-    server: 104.20.24.24
+    server: 104.26.2.82
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -497,7 +497,7 @@ proxies:
 
   - name: "CF-HK-2"
     type: vless
-    server: 104.20.24.154
+    server: 172.67.73.213
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -513,7 +513,7 @@ proxies:
 
   - name: "CF-HK-3"
     type: vless
-    server: 172.64.232.8
+    server: 104.20.25.208
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -529,7 +529,7 @@ proxies:
 
   - name: "CF-HK-4"
     type: vless
-    server: 104.20.19.250
+    server: 172.67.76.27
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -545,7 +545,7 @@ proxies:
 
   - name: "CF-HK-5"
     type: vless
-    server: 104.26.4.64
+    server: 104.17.0.9
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -561,7 +561,7 @@ proxies:
 
   - name: "CF-HK-6"
     type: vless
-    server: 172.64.230.5
+    server: 172.64.230.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -577,7 +577,7 @@ proxies:
 
   - name: "CF-HK-7"
     type: vless
-    server: 104.20.23.177
+    server: 172.67.76.194
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -593,7 +593,7 @@ proxies:
 
   - name: "CF-HK-8"
     type: vless
-    server: 172.67.76.194
+    server: 104.20.18.67
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -609,7 +609,7 @@ proxies:
 
   - name: "CF-HK-9"
     type: vless
-    server: 172.67.76.27
+    server: 104.26.15.34
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -625,7 +625,7 @@ proxies:
 
   - name: "CF-HK-10"
     type: vless
-    server: 104.26.10.181
+    server: 104.20.24.154
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -641,7 +641,7 @@ proxies:
 
   - name: "CF-TW-1"
     type: vless
-    server: 104.16.140.242
+    server: 104.17.106.12
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -657,7 +657,7 @@ proxies:
 
   - name: "CF-TW-2"
     type: vless
-    server: 104.17.45.4
+    server: 104.17.48.145
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -673,7 +673,7 @@ proxies:
 
   - name: "CF-TW-3"
     type: vless
-    server: 104.16.218.148
+    server: 104.17.215.13
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -689,7 +689,7 @@ proxies:
 
   - name: "CF-TW-4"
     type: vless
-    server: 104.16.110.148
+    server: 104.17.85.53
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -705,7 +705,7 @@ proxies:
 
   - name: "CF-TW-5"
     type: vless
-    server: 104.16.177.185
+    server: 104.17.198.210
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -721,7 +721,7 @@ proxies:
 
   - name: "CF-TW-6"
     type: vless
-    server: 104.20.24.154
+    server: 104.16.246.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -737,7 +737,7 @@ proxies:
 
   - name: "CF-TW-7"
     type: vless
-    server: 172.67.76.27
+    server: 104.16.166.68
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -753,7 +753,7 @@ proxies:
 
   - name: "CF-TW-8"
     type: vless
-    server: 104.25.94.80
+    server: 104.16.30.109
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -769,7 +769,7 @@ proxies:
 
   - name: "CF-TW-9"
     type: vless
-    server: 104.16.154.144
+    server: 104.16.177.185
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -785,7 +785,7 @@ proxies:
 
   - name: "CF-TW-10"
     type: vless
-    server: 104.16.30.110
+    server: 104.16.95.102
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -801,7 +801,7 @@ proxies:
 
   - name: "CF-DE-1"
     type: vless
-    server: 104.27.0.8
+    server: 104.25.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -817,7 +817,7 @@ proxies:
 
   - name: "CF-DE-2"
     type: vless
-    server: 104.20.0.7
+    server: 172.64.232.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -833,7 +833,7 @@ proxies:
 
   - name: "CF-DE-3"
     type: vless
-    server: 104.25.0.5
+    server: 104.27.0.9
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -849,7 +849,7 @@ proxies:
 
   - name: "CF-DE-4"
     type: vless
-    server: 104.21.0.8
+    server: 172.64.229.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -865,7 +865,7 @@ proxies:
 
   - name: "CF-DE-5"
     type: vless
-    server: 172.64.230.5
+    server: 104.20.0.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -881,7 +881,7 @@ proxies:
 
   - name: "CF-DE-6"
     type: vless
-    server: 162.159.198.1
+    server: 172.64.230.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -897,7 +897,7 @@ proxies:
 
   - name: "CF-DE-7"
     type: vless
-    server: 104.16.0.7
+    server: 104.25.0.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -913,7 +913,7 @@ proxies:
 
   - name: "CF-DE-8"
     type: vless
-    server: 104.25.0.9
+    server: 172.66.0.9
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -929,7 +929,7 @@ proxies:
 
   - name: "CF-DE-9"
     type: vless
-    server: 172.64.232.4
+    server: 104.21.0.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -945,7 +945,7 @@ proxies:
 
   - name: "CF-DE-10"
     type: vless
-    server: 172.66.0.9
+    server: 104.19.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -961,7 +961,7 @@ proxies:
 
   - name: "CF-GB-1"
     type: vless
-    server: 172.64.232.4
+    server: 104.21.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -977,7 +977,7 @@ proxies:
 
   - name: "CF-GB-2"
     type: vless
-    server: 104.25.0.4
+    server: 104.27.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -993,7 +993,7 @@ proxies:
 
   - name: "CF-GB-3"
     type: vless
-    server: 104.18.0.7
+    server: 104.27.0.6
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1009,7 +1009,7 @@ proxies:
 
   - name: "CF-GB-4"
     type: vless
-    server: 104.20.0.6
+    server: 104.19.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1025,7 +1025,7 @@ proxies:
 
   - name: "CF-GB-5"
     type: vless
-    server: 104.24.0.8
+    server: 104.20.0.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1041,7 +1041,7 @@ proxies:
 
   - name: "CF-GB-6"
     type: vless
-    server: 104.25.0.8
+    server: 104.24.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1057,7 +1057,7 @@ proxies:
 
   - name: "CF-GB-7"
     type: vless
-    server: 104.19.0.6
+    server: 172.64.230.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1073,7 +1073,7 @@ proxies:
 
   - name: "CF-GB-8"
     type: vless
-    server: 104.27.0.1
+    server: 172.66.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1089,7 +1089,7 @@ proxies:
 
   - name: "CF-GB-9"
     type: vless
-    server: 104.16.0.6
+    server: 104.24.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1105,7 +1105,7 @@ proxies:
 
   - name: "CF-GB-10"
     type: vless
-    server: 104.21.0.8
+    server: 104.24.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1121,7 +1121,7 @@ proxies:
 
   - name: "CF-US-11"
     type: vless
-    server: 104.19.133.50
+    server: 104.20.0.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1137,7 +1137,7 @@ proxies:
 
   - name: "CF-US-12"
     type: vless
-    server: 104.18.153.251
+    server: 104.25.0.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1153,7 +1153,7 @@ proxies:
 
   - name: "CF-US-13"
     type: vless
-    server: 104.16.3.193
+    server: 172.64.230.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1169,7 +1169,7 @@ proxies:
 
   - name: "CF-US-14"
     type: vless
-    server: 104.17.145.145
+    server: 104.21.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1185,7 +1185,7 @@ proxies:
 
   - name: "CF-US-15"
     type: vless
-    server: 104.18.33.253
+    server: 104.27.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1201,7 +1201,7 @@ proxies:
 
   - name: "CF-US-16"
     type: vless
-    server: 172.64.229.229
+    server: 172.64.229.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1217,55 +1217,7 @@ proxies:
 
   - name: "CF-US-17"
     type: vless
-    server: 172.66.0.118
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-US-18"
-    type: vless
-    server: 104.18.4.183
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-US-19"
-    type: vless
-    server: 104.18.35.167
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-US-20"
-    type: vless
-    server: 172.64.232.8
+    server: 103.31.4.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -1281,151 +1233,7 @@ proxies:
 
   - name: "CF-KR-1"
     type: vless
-    server: 104.18.0.8
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-2"
-    type: vless
-    server: 104.18.0.3
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-3"
-    type: vless
-    server: 104.19.0.8
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-4"
-    type: vless
-    server: 104.16.0.8
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-5"
-    type: vless
-    server: 104.18.0.7
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-6"
-    type: vless
-    server: 104.19.0.9
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-7"
-    type: vless
-    server: 162.159.0.5
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-8"
-    type: vless
     server: 104.19.0.3
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-9"
-    type: vless
-    server: 104.18.0.2
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: jeypan.pages.dev
-
-  - name: "CF-KR-10"
-    type: vless
-    server: 104.17.0.6
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
