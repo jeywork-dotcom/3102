@@ -23,51 +23,6 @@ dns:
 proxies:
   - name: "CF-US-1"
     type: vless
-    server: 104.18.0.5
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-US-2"
-    type: vless
-    server: 104.16.0.3
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-US-3"
-    type: vless
-    server: 104.18.0.6
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-US-4"
-    type: vless
     server: 104.19.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
@@ -80,548 +35,53 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "jeypan.pages.dev"
+        host: "jeypan.pages.dev"
+  - name: "CF-US-2"
+    type: vless
+    server: 104.18.0.3
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-US-3"
+    type: vless
+    server: 104.18.0.5
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-US-4"
+    type: vless
+    server: 104.19.0.6
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
   - name: "CF-US-5"
-    type: vless
-    server: 104.17.0.4
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-JP-1"
-    type: vless
-    server: 104.27.0.6
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-JP-2"
-    type: vless
-    server: 104.16.0.6
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-JP-3"
-    type: vless
-    server: 172.64.230.7
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-JP-4"
-    type: vless
-    server: 104.16.0.2
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-JP-5"
-    type: vless
-    server: 172.66.0.5
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-SG-1"
-    type: vless
-    server: 104.18.0.7
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-SG-2"
-    type: vless
-    server: 172.64.232.8
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-SG-3"
-    type: vless
-    server: 104.20.0.6
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-SG-4"
-    type: vless
-    server: 172.64.229.8
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-SG-5"
-    type: vless
-    server: 104.20.0.7
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-HK-1"
-    type: vless
-    server: 104.27.0.8
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-HK-2"
-    type: vless
-    server: 104.20.25.208
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-HK-3"
-    type: vless
-    server: 172.67.76.194
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-HK-4"
-    type: vless
-    server: 172.64.230.5
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-HK-5"
-    type: vless
-    server: 104.20.24.24
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-TW-1"
-    type: vless
-    server: 104.16.232.234
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-TW-2"
-    type: vless
-    server: 104.16.61.163
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-TW-3"
-    type: vless
-    server: 104.16.154.144
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-TW-4"
-    type: vless
-    server: 104.26.4.64
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-TW-5"
-    type: vless
-    server: 172.67.76.27
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-DE-1"
-    type: vless
-    server: 104.27.0.1
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-DE-2"
-    type: vless
-    server: 172.64.230.2
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-DE-3"
-    type: vless
-    server: 162.159.197.1
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-DE-4"
-    type: vless
-    server: 104.26.0.1
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-DE-5"
-    type: vless
-    server: 162.159.198.1
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-GB-1"
-    type: vless
-    server: 104.24.0.6
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-GB-2"
-    type: vless
-    server: 104.24.0.8
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-GB-3"
-    type: vless
-    server: 104.24.0.1
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-GB-4"
-    type: vless
-    server: 104.17.0.6
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-GB-5"
-    type: vless
-    server: 104.25.0.8
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-US-6"
-    type: vless
-    server: 172.64.144.147
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-US-7"
-    type: vless
-    server: 172.64.150.161
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-US-8"
-    type: vless
-    server: 104.18.34.2
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-US-9"
-    type: vless
-    server: 172.64.149.3
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-US-10"
-    type: vless
-    server: 172.64.154.213
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-KR-1"
     type: vless
     server: 104.19.0.7
     port: 443
@@ -635,23 +95,8 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-KR-2"
-    type: vless
-    server: 104.16.0.4
-    port: 443
-    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
-    network: ws
-    tls: true
-    udp: true
-    packet-encoding: xudp
-    servername: jeypan.pages.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jeypan.pages.dev"
-  - name: "CF-KR-3"
+        host: "jeypan.pages.dev"
+  - name: "CF-JP-1"
     type: vless
     server: 104.18.0.1
     port: 443
@@ -665,10 +110,565 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "jeypan.pages.dev"
+        host: "jeypan.pages.dev"
+  - name: "CF-JP-2"
+    type: vless
+    server: 104.19.0.8
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-JP-3"
+    type: vless
+    server: 188.114.96.8
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-JP-4"
+    type: vless
+    server: 104.26.0.1
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-JP-5"
+    type: vless
+    server: 104.19.0.3
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-SG-1"
+    type: vless
+    server: 104.26.0.5
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-SG-2"
+    type: vless
+    server: 172.64.230.8
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-SG-3"
+    type: vless
+    server: 104.26.0.6
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-SG-4"
+    type: vless
+    server: 104.16.0.3
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-SG-5"
+    type: vless
+    server: 162.159.198.1
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-HK-1"
+    type: vless
+    server: 104.20.17.9
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-HK-2"
+    type: vless
+    server: 104.26.4.64
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-HK-3"
+    type: vless
+    server: 104.17.0.1
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-HK-4"
+    type: vless
+    server: 104.20.24.24
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-HK-5"
+    type: vless
+    server: 104.20.19.250
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-TW-1"
+    type: vless
+    server: 104.16.155.173
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-TW-2"
+    type: vless
+    server: 172.67.67.0
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-TW-3"
+    type: vless
+    server: 104.20.23.177
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-TW-4"
+    type: vless
+    server: 104.17.184.101
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-TW-5"
+    type: vless
+    server: 104.16.32.237
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-DE-1"
+    type: vless
+    server: 104.27.0.2
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-DE-2"
+    type: vless
+    server: 172.64.230.4
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-DE-3"
+    type: vless
+    server: 104.27.0.6
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-DE-4"
+    type: vless
+    server: 104.25.0.6
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-DE-5"
+    type: vless
+    server: 188.114.96.4
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-GB-1"
+    type: vless
+    server: 104.21.0.6
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-GB-2"
+    type: vless
+    server: 104.17.0.5
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-GB-3"
+    type: vless
+    server: 104.17.0.4
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-GB-4"
+    type: vless
+    server: 104.27.0.9
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-GB-5"
+    type: vless
+    server: 104.20.0.6
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-US-6"
+    type: vless
+    server: 172.64.148.133
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-US-7"
+    type: vless
+    server: 104.17.145.145
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-US-8"
+    type: vless
+    server: 172.66.0.118
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-US-9"
+    type: vless
+    server: 104.18.152.93
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-US-10"
+    type: vless
+    server: 104.18.44.147
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-KR-1"
+    type: vless
+    server: 104.19.0.2
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-KR-2"
+    type: vless
+    server: 104.18.0.4
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
+  - name: "CF-KR-3"
+    type: vless
+    server: 104.16.0.5
+    port: 443
+    uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
+    network: ws
+    tls: true
+    udp: true
+    packet-encoding: xudp
+    servername: jeypan.pages.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/"
+      headers:
+        host: "jeypan.pages.dev"
   - name: "CF-KR-4"
     type: vless
-    server: 104.16.0.8
+    server: 103.31.4.9
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -680,10 +680,10 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "jeypan.pages.dev"
+        host: "jeypan.pages.dev"
   - name: "CF-KR-5"
     type: vless
-    server: 104.24.0.4
+    server: 103.31.4.3
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -695,7 +695,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "jeypan.pages.dev"
+        host: "jeypan.pages.dev"
 proxy-groups:
   - name: "PROXY"
     type: select
@@ -753,7 +753,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     lazy: false
-    expected-status: 204
+    expected-status: 200/204
     proxies:
       - "CF-US-1"
       - "CF-US-2"
