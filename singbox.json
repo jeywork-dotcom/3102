@@ -136,7 +136,7 @@
     {
       "type": "vless",
       "tag": "CF-US-1",
-      "server": "104.17.0.9",
+      "server": "104.19.0.4",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -159,7 +159,7 @@
     {
       "type": "vless",
       "tag": "CF-US-2",
-      "server": "104.18.0.6",
+      "server": "104.16.0.1",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -182,213 +182,6 @@
     {
       "type": "vless",
       "tag": "CF-US-3",
-      "server": "104.17.0.1",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-US-4",
-      "server": "104.19.0.2",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-US-5",
-      "server": "104.18.0.4",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-JP-1",
-      "server": "104.17.0.3",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-JP-2",
-      "server": "104.27.0.1",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-JP-3",
-      "server": "172.64.229.4",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-JP-4",
-      "server": "172.64.231.160",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-JP-5",
-      "server": "104.17.0.6",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-SG-1",
-      "server": "104.16.0.5",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-SG-2",
       "server": "162.159.198.1",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
@@ -411,8 +204,215 @@
     },
     {
       "type": "vless",
+      "tag": "CF-US-4",
+      "server": "104.18.0.4",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-5",
+      "server": "104.18.0.2",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-1",
+      "server": "104.17.0.1",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-2",
+      "server": "104.20.0.8",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-3",
+      "server": "104.18.0.1",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-4",
+      "server": "104.18.0.6",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-JP-5",
+      "server": "172.64.231.160",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-SG-1",
+      "server": "172.66.0.4",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-SG-2",
+      "server": "104.19.0.3",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "CF-SG-3",
-      "server": "104.25.0.2",
+      "server": "172.64.230.7",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -435,7 +435,7 @@
     {
       "type": "vless",
       "tag": "CF-SG-4",
-      "server": "104.16.0.3",
+      "server": "104.25.0.9",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -458,7 +458,7 @@
     {
       "type": "vless",
       "tag": "CF-SG-5",
-      "server": "104.26.0.1",
+      "server": "172.64.232.8",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -481,7 +481,7 @@
     {
       "type": "vless",
       "tag": "CF-HK-1",
-      "server": "104.20.31.65",
+      "server": "104.20.24.154",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -504,7 +504,7 @@
     {
       "type": "vless",
       "tag": "CF-HK-2",
-      "server": "104.26.15.34",
+      "server": "172.67.77.6",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -527,7 +527,7 @@
     {
       "type": "vless",
       "tag": "CF-HK-3",
-      "server": "104.26.4.64",
+      "server": "104.19.0.7",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -550,7 +550,7 @@
     {
       "type": "vless",
       "tag": "CF-HK-4",
-      "server": "172.67.76.194",
+      "server": "172.64.230.8",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -573,7 +573,7 @@
     {
       "type": "vless",
       "tag": "CF-HK-5",
-      "server": "104.19.0.5",
+      "server": "104.20.19.250",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -596,7 +596,7 @@
     {
       "type": "vless",
       "tag": "CF-TW-1",
-      "server": "104.16.246.1",
+      "server": "104.16.133.71",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -619,7 +619,7 @@
     {
       "type": "vless",
       "tag": "CF-TW-2",
-      "server": "104.17.198.210",
+      "server": "172.67.76.27",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -642,7 +642,7 @@
     {
       "type": "vless",
       "tag": "CF-TW-3",
-      "server": "172.64.152.27",
+      "server": "104.16.61.163",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -665,7 +665,7 @@
     {
       "type": "vless",
       "tag": "CF-TW-4",
-      "server": "104.27.32.227",
+      "server": "104.25.25.76",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -688,7 +688,7 @@
     {
       "type": "vless",
       "tag": "CF-TW-5",
-      "server": "172.67.65.54",
+      "server": "104.17.9.32",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -711,7 +711,7 @@
     {
       "type": "vless",
       "tag": "CF-DE-1",
-      "server": "104.25.0.8",
+      "server": "172.64.232.6",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -734,7 +734,7 @@
     {
       "type": "vless",
       "tag": "CF-DE-2",
-      "server": "104.26.0.8",
+      "server": "104.24.0.1",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -757,7 +757,7 @@
     {
       "type": "vless",
       "tag": "CF-DE-3",
-      "server": "104.25.0.5",
+      "server": "104.16.0.8",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -780,7 +780,7 @@
     {
       "type": "vless",
       "tag": "CF-DE-4",
-      "server": "104.21.0.3",
+      "server": "104.26.0.7",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -803,7 +803,7 @@
     {
       "type": "vless",
       "tag": "CF-DE-5",
-      "server": "104.27.0.6",
+      "server": "172.64.230.5",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -849,7 +849,7 @@
     {
       "type": "vless",
       "tag": "CF-GB-2",
-      "server": "104.21.0.6",
+      "server": "104.16.0.7",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -872,190 +872,6 @@
     {
       "type": "vless",
       "tag": "CF-GB-3",
-      "server": "172.64.230.4",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-GB-4",
-      "server": "104.24.0.6",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-GB-5",
-      "server": "104.20.0.8",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-US-6",
-      "server": "104.18.43.15",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-US-7",
-      "server": "104.18.32.86",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-US-8",
-      "server": "104.17.145.145",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-US-9",
-      "server": "104.18.35.155",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-US-10",
-      "server": "104.18.40.146",
-      "server_port": 443,
-      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jeypan.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jeypan.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF-KR-1",
       "server": "104.18.0.5",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
@@ -1078,8 +894,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF-KR-2",
-      "server": "104.17.0.4",
+      "tag": "CF-GB-4",
+      "server": "172.64.230.2",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -1101,7 +917,7 @@
     },
     {
       "type": "vless",
-      "tag": "CF-KR-3",
+      "tag": "CF-GB-5",
       "server": "104.17.0.5",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
@@ -1124,8 +940,192 @@
     },
     {
       "type": "vless",
+      "tag": "CF-US-6",
+      "server": "172.66.0.118",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-7",
+      "server": "104.17.145.145",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-8",
+      "server": "104.18.38.94",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-9",
+      "server": "104.18.45.82",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-US-10",
+      "server": "172.64.149.36",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-KR-1",
+      "server": "104.16.0.6",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-KR-2",
+      "server": "104.18.0.8",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF-KR-3",
+      "server": "104.17.0.9",
+      "server_port": 443,
+      "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jeypan.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jeypan.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "CF-KR-4",
-      "server": "104.18.0.3",
+      "server": "104.17.0.2",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
@@ -1148,7 +1148,7 @@
     {
       "type": "vless",
       "tag": "CF-KR-5",
-      "server": "104.19.0.1",
+      "server": "104.16.0.9",
       "server_port": 443,
       "uuid": "ddaf7e96-2b0b-4934-8e04-1aab57ac06b9",
       "packet_encoding": "xudp",
