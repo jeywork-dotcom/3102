@@ -23,7 +23,7 @@ dns:
 proxies:
   - name: "CF-US-1"
     type: vless
-    server: 104.19.0.4
+    server: 104.18.0.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -38,7 +38,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-2"
     type: vless
-    server: 104.16.0.1
+    server: 104.18.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -53,7 +53,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-3"
     type: vless
-    server: 162.159.198.1
+    server: 104.16.0.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -68,7 +68,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-4"
     type: vless
-    server: 104.18.0.4
+    server: 104.18.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -83,7 +83,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-5"
     type: vless
-    server: 104.18.0.2
+    server: 162.159.198.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -98,7 +98,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-JP-1"
     type: vless
-    server: 104.17.0.1
+    server: 172.64.232.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -113,7 +113,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-JP-2"
     type: vless
-    server: 104.20.0.8
+    server: 104.25.0.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -128,7 +128,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-JP-3"
     type: vless
-    server: 104.18.0.1
+    server: 104.16.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -143,7 +143,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-JP-4"
     type: vless
-    server: 104.18.0.6
+    server: 104.24.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -158,7 +158,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-JP-5"
     type: vless
-    server: 172.64.231.160
+    server: 104.24.0.3
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -173,7 +173,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-SG-1"
     type: vless
-    server: 172.66.0.4
+    server: 108.162.192.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -188,7 +188,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-SG-2"
     type: vless
-    server: 104.19.0.3
+    server: 172.66.0.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -203,7 +203,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-SG-3"
     type: vless
-    server: 172.64.230.7
+    server: 172.64.229.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -218,7 +218,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-SG-4"
     type: vless
-    server: 104.25.0.9
+    server: 172.64.230.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -233,7 +233,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-SG-5"
     type: vless
-    server: 172.64.232.8
+    server: 104.26.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -248,7 +248,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-HK-1"
     type: vless
-    server: 104.20.24.154
+    server: 104.26.1.53
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -263,7 +263,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-HK-2"
     type: vless
-    server: 172.67.77.6
+    server: 104.20.19.250
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -278,7 +278,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-HK-3"
     type: vless
-    server: 104.19.0.7
+    server: 172.67.65.54
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -293,7 +293,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-HK-4"
     type: vless
-    server: 172.64.230.8
+    server: 172.67.77.6
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -308,7 +308,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-HK-5"
     type: vless
-    server: 104.20.19.250
+    server: 104.21.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -323,7 +323,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-TW-1"
     type: vless
-    server: 104.16.133.71
+    server: 104.17.106.12
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -338,7 +338,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-TW-2"
     type: vless
-    server: 172.67.76.27
+    server: 104.16.39.192
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -353,7 +353,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-TW-3"
     type: vless
-    server: 104.16.61.163
+    server: 172.67.67.0
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -368,7 +368,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-TW-4"
     type: vless
-    server: 104.25.25.76
+    server: 104.25.94.80
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -383,7 +383,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-TW-5"
     type: vless
-    server: 104.17.9.32
+    server: 104.20.23.177
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -398,7 +398,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-DE-1"
     type: vless
-    server: 172.64.232.6
+    server: 104.16.0.6
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -413,7 +413,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-DE-2"
     type: vless
-    server: 104.24.0.1
+    server: 104.17.0.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -428,7 +428,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-DE-3"
     type: vless
-    server: 104.16.0.8
+    server: 104.25.0.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -443,7 +443,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-DE-4"
     type: vless
-    server: 104.26.0.7
+    server: 188.114.96.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -458,7 +458,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-DE-5"
     type: vless
-    server: 172.64.230.5
+    server: 172.66.0.7
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -473,7 +473,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-GB-1"
     type: vless
-    server: 104.24.0.9
+    server: 104.25.0.9
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -488,7 +488,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-GB-2"
     type: vless
-    server: 104.16.0.7
+    server: 172.66.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -503,7 +503,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-GB-3"
     type: vless
-    server: 104.18.0.5
+    server: 172.64.230.8
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -518,7 +518,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-GB-4"
     type: vless
-    server: 172.64.230.2
+    server: 172.64.230.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -533,7 +533,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-GB-5"
     type: vless
-    server: 104.17.0.5
+    server: 104.19.0.5
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -548,7 +548,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-6"
     type: vless
-    server: 172.66.0.118
+    server: 172.64.151.150
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -563,7 +563,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-7"
     type: vless
-    server: 104.17.145.145
+    server: 104.18.37.149
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -578,7 +578,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-8"
     type: vless
-    server: 104.18.38.94
+    server: 172.66.0.118
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -593,7 +593,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-9"
     type: vless
-    server: 104.18.45.82
+    server: 172.64.158.39
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -608,7 +608,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-US-10"
     type: vless
-    server: 172.64.149.36
+    server: 104.18.35.181
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -623,7 +623,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-KR-1"
     type: vless
-    server: 104.16.0.6
+    server: 104.16.0.9
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -638,7 +638,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-KR-2"
     type: vless
-    server: 104.18.0.8
+    server: 104.18.0.4
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -653,7 +653,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-KR-3"
     type: vless
-    server: 104.17.0.9
+    server: 104.19.0.2
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -668,7 +668,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-KR-4"
     type: vless
-    server: 104.17.0.2
+    server: 104.21.0.6
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
@@ -683,7 +683,7 @@ proxies:
         host: "jeypan.pages.dev"
   - name: "CF-KR-5"
     type: vless
-    server: 104.16.0.9
+    server: 104.16.0.1
     port: 443
     uuid: ddaf7e96-2b0b-4934-8e04-1aab57ac06b9
     network: ws
